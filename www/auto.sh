@@ -1,10 +1,10 @@
-!/bin/bash
+#!/bin/bash
 
-# Chromium便携版打包脚本
+# auto update
 SCRIPT_PATH="$(realpath "$0")"\
 SCRIPT_DIR="$(dirname "$SCRIPT_PATH")"
 
-echo "update" >> ./README.md
+echo "update" >> $SCRIPT_DIR/README.md
 git add .
 git commit -m 'update'
 git push
