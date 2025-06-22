@@ -17,10 +17,10 @@ i=0
 while [ $i -lt $count ]; do
     # 获取当前时间并格式化为 mmddss
     current_time=$(date +"%m%d%S")
-    echo "$current_time: "$((RANDOM % 60))
+    sleep_time=$((RANDOM % 60))
+    echo "$current_time: $sleep_time"
     auto_update $current_time
     # 生成一个随机的间隔时间（0 到 60 秒之间）
-    sleep_time=$((RANDOM % 60))
     sleep "$sleep_time"  # 随机间隔时间
 
     # 增加计数器
