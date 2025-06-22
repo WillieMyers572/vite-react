@@ -36,3 +36,4 @@ Deploy your own Vite project with Edgeone pages.
 
 More Templates: [EdgeOne Pages](https://edgeone.ai/pages/templates)
 update
+update
