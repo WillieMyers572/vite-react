@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # auto update
-SCRIPT_PATH="$(realpath "$0")"\
+SCRIPT_PATH="$(realpath "$0")"
 SCRIPT_DIR="$(dirname "$SCRIPT_PATH")"
 echo path:$SCRIPT_PATH
 echo path:$SCRIPT_DIR
