@@ -5,7 +5,7 @@ auto_update(){
     SCRIPT_PATH="$(realpath "$0")"
     SCRIPT_DIR="$(dirname "$SCRIPT_PATH")"
     echo path:$SCRIPT_DIR
-    echo "update.$1" >> $SCRIPT_DIR/README.md
+    echo "version.$1" >> $SCRIPT_DIR/README.md
     git add .
     git commit -m 'update.'$1
     git push
